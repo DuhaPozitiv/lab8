@@ -1,0 +1,134 @@
+body {
+    background-image: url(bgi.jpg);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.db_image {
+    width: 70%;
+    margin: 30px auto;
+}
+
+.container {
+    margin:0 auto;
+    width: 80%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#title {
+    margin: 0 auto;
+
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.menu_nav{
+    list-style: none;
+    font-weight: 800;
+}
+
+.a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition:color .3s;
+}
+
+.a:hover {
+    color: red;
+
+}
+
+.nav_a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    transition:color .3s;
+}
+
+.nav_a:hover {
+    color: red;
+}
+
+#menu {
+    text-align: center;
+}
+
+.post {
+    margin: 0 auto 20px auto;
+    background-color: white;
+    border: 2px solid #CCCCCC ;
+    -webkit-box-shadow: 0px 5px 10px -1px rgba(34, 60, 80, 0.09);
+    -moz-box-shadow: 0px 5px 10px -1px rgba(34, 60, 80, 0.09);
+    box-shadow: 0px 5px 10px -1px rgba(34, 60, 80, 0.15);
+
+}
+
+.post_image {
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.post_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.nickname, .post_description , .like {
+    padding: 1.5% ;
+}
+
+.like_count {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.like_count img, span {
+    margin: auto 0 auto 3px;
+}
+
+.id {
+    float: right;
+    text-align: right;
+    margin: 4px;
+}
+
+.options {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    padding-top: 10px;
+}
+
+.form {
+    margin: 10px;
+    padding: 10px;
+}
+
+input , label{
+    margin: 5px;
+
+}
